@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 600px;
+    margin: auto;
+    padding: 12px;
+}
+
+table, tr, td {
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
